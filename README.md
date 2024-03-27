@@ -2,6 +2,10 @@
 
 This repository contains a full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) **CRUD** (Create, Read, Update, Delete) application. Built with modern web development technologies, this application provides a robust foundation for managing data with a user-friendly interface.
 
+### Deployment:
+
+The application is deployed and accessible at https://mern-crudd.onrender.com
+
 ### Features:
 
 - **Create:** Add new data entries to the MongoDB database with ease.
@@ -24,10 +28,6 @@ This repository contains a full-stack **MERN** (MongoDB, Express.js, React.js, N
 3. **Set up MongoDB:** Ensure MongoDB is installed and running locally or configure connection to a remote MongoDB instance.
 4. **Start the Development Server:** `npm start` to run both the client-side React application and the server-side Express.js API.
 5. **Access the Application:** Open your web browser and navigate to `http://localhost:3000` to use the application.
-
-### Deployment:
-
-The application is deployed and accessible at https://mern-crudd.onrender.com
 
 ### Contributions:
 
