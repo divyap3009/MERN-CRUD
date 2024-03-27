@@ -6,7 +6,7 @@ const Read = () => {
   const [error, setError] = useState();
 
   const getdata = async () => {
-    const response = await fetch("http://localhost:5000");
+    const response = await fetch("https://mern-crud-yk61.onrender.com");
 
     const result = await response.json();
 
@@ -25,7 +25,7 @@ const Read = () => {
   }, []);
 
   const handleDelete = async (id) => {
-    const response = await fetch(`http://localhost:5000/${id}`, {
+    const response = await fetch(`https://mern-crud-yk61.onrender.com/${id}`, {
       method: "DELETE",
     });
 
